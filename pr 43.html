@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML5 : Form Validation</title>
+</head>
+<body>
+	<form action="/action_page.php">
+		EQUATION : 5+2*6-12 <br><br>
+		Enter your result : 
+		<input type="text" name="result" required pattern="[0-9.+-]+" title="Only digits, + - sign and decimal point is allowed..!">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>

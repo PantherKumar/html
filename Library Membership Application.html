@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Library Membership Application</title>
+</head>
+<body>
+
+	<form name="appdata" action="" method="post">
+		<center><h1>Library Membership Application</h1></center>
+
+		Applicant's Name &nbsp&nbsp :&nbsp
+		<input type="text" name="t1" size="30"><br><br>
+		Permanent Address &nbsp : &nbsp
+		<input type="text" name="t2" size="60"><br><br>
+		City &nbsp&nbsp&nbsp : &nbsp
+		<input type="text" name="t3" size="25">
+		&nbsp&nbsp Pin Code :&nbsp
+		<input type="text" name="t4" size="10"><br><br>
+		Date of Birth &nbsp&nbsp:&nbsp&nbsp
+		<input type="text" name="t5" size="2" maxlength="2" value="DD" style="text-align: center;">&nbsp/
+		<input type="text" name="t6" size="2" maxlength="2" value="MM" style="text-align: center;">&nbsp/
+		<input type="text" name="t7" size="4" maxlength="4" value="YYYY" style="text-align: center;"><br><br>
+		Gender &nbsp:&nbsp
+		<input type="radio"  name="rb" value="male">Male
+		<input type="radio"  name="rb" value="female">Female
+		<input type="radio"  name="rb" value="other">Other<br><br>
+
+		Subject of Interest &nbsp : &nbsp
+	<pre>
+		<input type="checkbox" name="cb1" value="">Math
+		<input type="checkbox" name="cb2" value="">Physics
+		<input type="checkbox" name="cb3" value="">Chemistry
+		<input type="checkbox" name="cb4" value="">Biology
+		<input type="checkbox" name="cb5" value="">Economics
+		<input type="checkbox" name="cb6" value="">Accontancy
+		<input type="checkbox" name="cb7" value="">History
+		<input type="checkbox" name="cb8" value="">Geography
+		<input type="checkbox" name="cb9" value="">Political Science
+		<input type="checkbox" name="cb10" value="">Hindi
+		<input type="checkbox" name="cb11" value="">English
+		<input type="checkbox" name="cb12" value="">Computer
+	</pre>
+
+		Time Slot Required &nbsp:&nbsp
+		<select>
+			<option>8:00-10:00 AM</option>
+			<option>10:00-12:00 Noon</option>
+			<option>12:00-2:00 PM</option>
+			<option>2:00-4:00 PM</option>
+			<option>4:00-6:00 PM</option>
+			<option>6:00-8:00 PM</option>
+		</select><br><br>
+
+		Membership &nbsp:&nbsp
+		<select name="mem">
+			<option onselect="myfunction()">Monthly</option>
+			<option>Quarterly</option>
+			<option>Half Yearly</option>
+			<option>Yearly</option>
+			<option>Life Membership</option>
+		</select><br>
+		<br>
+
+		
+		<input type="checkbox" name="cb13">
+			I/We have read the terms and condition(s) of joining the library and agree to aabide by the rules.
+		<br>
+		<pre>
+			<input type="submit" name="b1" value="SUBMIT"><br>
+			<input type="reset" name="b2" value="CLEAR">
+		</pre>
+		
+
+	</form>
+</body>
+</html>
